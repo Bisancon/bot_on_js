@@ -7,7 +7,10 @@ const app = express()
 const bot = new Telegraf(TOKEN)
 
 bot.start(ctx => {
-    ctx.reply('Welcome, bro', getMainMenu())
+    ctx.replyWithHTML(
+        'Приветсвую в <b>TaskManagerBot</b>\n\n' +
+        'Чтобы быстро добавить задачу, просто напишите ее и отправьте боту',
+        getMainMenu())
 })
 
 bot.hears('Мои задачи', ctx => {
