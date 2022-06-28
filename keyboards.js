@@ -1,9 +1,9 @@
-import Markup from 'telegraf/markup.js'
+import Markup from 'telegraf/types'
 
 export function getMainMenu() {
     return Markup.keyboard([
-        ['Мои задачи', 'Удалить задачу'],
-        ['Смотивируй меня']
+        ['Кнопка 1', 'Кнопка 2'],
+        ['Кнопка 3']
     ]).resize().extra()
 }
 
