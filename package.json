@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@telegraf/session": "^1.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
-    "telegraf": "^3.38.0"
+    "telegraf": "^3.38.0",
+    "telegraf-markup4-ts": "^1.0.7"
   },
   "type": "module"
 }

@@ -1,4 +1,4 @@
-import Markup from 'telegraf/types'
+import Markup from 'telegraf-markup4-ts'
 
 export function getMainMenu() {
     return Markup.keyboard([
